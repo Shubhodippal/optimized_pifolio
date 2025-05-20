@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("background.png");
+  background-repeat: repeat;
+  background-size: contain;
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo .logo-box {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  white-space: normal;
+  display: block;
+  margin-bottom: 8px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  overflow-x: auto;
+  padding: 5px 0;
+  justify-content: center;
+}
+
+.nav-button {
+  flex: 0 0 auto;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 5.5px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+main {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.project-item {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.25); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.project-item h3 {
+    margin: 0 0 15px;
+    font-size: 22px;
+    color: #007BFF;
+}
+
+.project-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.project-item a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+  margin-top: auto;
+}

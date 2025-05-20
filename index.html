@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    window.onload = function () {
+        // Simple check for mobile devices
+        const isMobile = /iPhone|iPad|iPod|Android|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const base_url = "E:/optimized_pifolio"
+        if (isMobile) {
+            window.location.href = base_url+"/mobile/home/home.html";
+        } else {
+            window.location.href = base_url+"/desktop/home/home.html";
+        }
+    };
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

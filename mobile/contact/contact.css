@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo .logo-box {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  white-space: normal;
+  display: block;
+  margin-bottom: 8px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  overflow-x: auto;
+  padding: 5px 0;
+  justify-content: center;
+}
+
+.nav-button {
+  flex: 0 0 auto;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 5.5px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+main {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+form {
+  width: 100%;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 30px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.email-info p, .status-message {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+footer {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+  margin-top: auto;
+}

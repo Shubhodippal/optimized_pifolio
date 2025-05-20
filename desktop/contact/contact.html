@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Shubhodip Pal | Developer</title>
+    <meta name="description" content="Get in touch with Shubhodip Pal, a developer. Use the contact form to send a message or attach files.">
+    <meta name="keywords" content="Contact, Shubhodip Pal, Developer, Email, Message">
+    <meta name="author" content="Shubhodip Pal">
+    <link rel="stylesheet" href="contact.css" id="main-stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="logo-box">&nbsp;&nbsp;SHUBHODIP PAL &nbsp;|&nbsp; DEVELOPER</span>
+        </div>
+        <nav>
+            <a href="../home/home.html" class="nav-button">HOME</a>
+            <a href="../Resume.pdf" target="_blank" class="nav-button">RESUME</a>
+            <a href="../projects/projects.html" class="nav-button">PROJECT</a>
+            <a href="../publication/publication.html" class="nav-button">PUBLICATION</a>
+            <a href="../contact/contact.html" class="nav-button">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 >Contact Me</h2>
+            <form id="contact-form" action="send_email.php" method="POST" enctype="multipart/form-data">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="status-message" id="status-message"></div>
+            <div class="email-info">
+                <p>You can also reach out to me directly at <a href="mailto:shubhodippal01@gmail.com">shubhodippal01@gmail.com</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Shubhodip Pal | All rights reserved</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
